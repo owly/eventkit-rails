@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'activeadmin', github: 'activeadmin'
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec'
@@ -36,4 +37,4 @@ group :doc do
 	gem 'sdoc', require: false
 end
 
-ruby "2.1.3"
+ruby ">= 2.1.3"

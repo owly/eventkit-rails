@@ -1,4 +1,5 @@
 EventKit::Application.routes.draw do
+  ActiveAdmin.routes(self)
 	root :to => 'assets#index'
 	get "assets/index"
 	post "/" => 'receiver#handle_post'
